@@ -1,0 +1,1 @@
+require "modules/collision_trigger/shared/init.lua"

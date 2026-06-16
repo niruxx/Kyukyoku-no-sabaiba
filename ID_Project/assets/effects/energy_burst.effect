@@ -1,0 +1,118 @@
+(
+    name: "energy_burst",
+    capacity: 256,
+    spawner: (
+        count: Single(60.0),
+        spawn_duration: Single(0.0),
+        period: Single(0.0),
+        cycle_count: 1,
+        starts_active: true,
+        emit_on_start: true,
+    ),
+    z_layer_2d: 0.0,
+    simulation_space: Global,
+    simulation_condition: WhenVisible,
+    prng_seed: 0,
+    init_modifiers: [
+        {
+            "SetAttributeModifier": (
+                attribute: "lifetime",
+                value: 1,
+            ),
+        },
+        {
+            "SetAttributeModifier": (
+                attribute: "size",
+                value: 2,
+            ),
+        },
+        {
+            "SetPositionSphereModifier": (
+                center: 3,
+                radius: 4,
+                dimension: Surface,
+            ),
+        },
+        {
+            "SetVelocitySphereModifier": (
+                center: 6,
+                speed: 5,
+            ),
+        },
+    ],
+    update_modifiers: [
+        {
+            "LinearDragModifier": (
+                drag: 7,
+            ),
+        },
+    ],
+    render_modifiers: [
+        {
+            "ColorOverLifetimeModifier": (
+                gradient: (
+                    keys: [
+                        (
+                            ratio: 0.0,
+                            value: (0.3, 0.9, 1.0, 1.0),
+                        ),
+                        (
+                            ratio: 0.4,
+                            value: (0.8, 0.3, 1.0, 0.9),
+                        ),
+                        (
+                            ratio: 1.0,
+                            value: (1.0, 0.5, 1.0, 0.0),
+                        ),
+                    ],
+                ),
+                blend: Overwrite,
+                mask: (15),
+            ),
+        },
+        {
+            "SizeOverLifetimeModifier": (
+                gradient: (
+                    keys: [
+                        (
+                            ratio: 0.0,
+                            value: (0.06, 0.06, 0.06),
+                        ),
+                        (
+                            ratio: 0.5,
+                            value: (0.04, 0.04, 0.04),
+                        ),
+                        (
+                            ratio: 1.0,
+                            value: (0.0, 0.0, 0.0),
+                        ),
+                    ],
+                ),
+                screen_space_size: false,
+            ),
+        },
+        {
+            "OrientModifier": (
+                mode: FaceCameraPosition,
+                rotation: None,
+            ),
+        },
+    ],
+    motion_integration: PostUpdate,
+    module: (
+        expressions: [
+            Literal(Scalar(Float(0.8))),
+            Literal(Scalar(Float(0.06))),
+            Literal(Vector(Vec3((0.0, 0.0, 0.0)))),
+            Literal(Scalar(Float(0.2))),
+            Literal(Scalar(Float(6.0))),
+            Literal(Vector(Vec3((0.0, 0.0, 0.0)))),
+            Literal(Scalar(Float(3.0))),
+        ],
+        properties: [],
+        texture_layout: (
+            layout: [],
+        ),
+    ),
+    alpha_mode: Blend,
+)

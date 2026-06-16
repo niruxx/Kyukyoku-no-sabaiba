@@ -1,0 +1,745 @@
+{
+    "version":  "v0.4.16",
+    "files":  [
+    {
+        "path":  "effects/energy_burst.effect",
+        "sha256":  "c93753c600f14d9890fb76cc752083ad5396adc324be666cbd1a41e770e96904"
+    },
+    {
+        "path":  "effects/fire_burst.effect",
+        "sha256":  "0b5bc256aefd1714f60e2d37801eff0536d0dd65edbe63fd678b6e16df989fae"
+    },
+    {
+        "path":  "effects/water_splash.effect",
+        "sha256":  "704c39836d0164f326ebcf549d7be5a2a9d30af5f3ccda388c67c57aebf61d69"
+    },
+    {
+        "path":  "Hello/scripts/client/game.lua",
+        "sha256":  "ee35a7659fd467f3732001a8d635abfc721052d2a1ea324575c357f85ae2c210"
+    },
+    {
+        "path":  "Hello/scripts/main.lua",
+        "sha256":  "38eab08b6fb0d96999c5b0abc0cbb9b2e660d2958308569edfda0c19e6f3e4bf"
+    },
+    {
+        "path":  "Hello/scripts/server/game.lua",
+        "sha256":  "05afab3c1ff5ce651b9bd2265c3f0be2a03eb7d4550698feca307ab93704fa53"
+    },
+    {
+        "path":  "Hello/scripts/server/main.lua",
+        "sha256":  "a0bef828d9c671ef1450d70e21246684a3ba4ac8324cc1fbed0d5185d213443a"
+    },
+    {
+        "path":  "icons/account.png",
+        "sha256":  "8f016ce0efc7b1aeb8adfcc1242d678b3a3b8867cc384698ccb89731cd0ff834"
+    },
+    {
+        "path":  "icons/files.png",
+        "sha256":  "0c12ee96448b676f4da9ee91fdd5d898422cb5911d52210286e28a016ffe5c35"
+    },
+    {
+        "path":  "icons/github.png",
+        "sha256":  "1b98122e9e44fdab84c0fea792778a116e7271718006e1fdcc8a77a2a045c417"
+    },
+    {
+        "path":  "icons/profiler.png",
+        "sha256":  "a78d9356c8c212db5cf4a20f3d92e8aafbf7b880f4de250d7c0c7cbb2b5ed56f"
+    },
+    {
+        "path":  "icons/settings.png",
+        "sha256":  "4044cf6f43e37b09aa09e3d12e3a53678776153036d394a5bfbbc78f83b15c21"
+    },
+    {
+        "path":  "modules/abilities/agent-docs/manifest.md",
+        "sha256":  "bc3db2680df070d7606a23e0a3bcbf59d2a8dc99ab8f1533d82704b1533a34e8"
+    },
+    {
+        "path":  "modules/abilities/client/init.lua",
+        "sha256":  "43a05e0dca35a8165af139ffca49f56c984fc5dc5fecd2899861736258971a43"
+    },
+    {
+        "path":  "modules/abilities/server/init.lua",
+        "sha256":  "6243b558fe8a994f1e3e5130d3ef0147e61527219d33475403def4894ec7cf34"
+    },
+    {
+        "path":  "modules/abilities/shared/bindings.lua",
+        "sha256":  "ff938bc4fe051ed7ac28da892a1d9904973410a48a1237279435916027145c5b"
+    },
+    {
+        "path":  "modules/abilities/tests/test.lua",
+        "sha256":  "06d3ce6cb8efc527ee174a594bd1b7993460d71807d4d50af0a43ae3046605d2"
+    },
+    {
+        "path":  "modules/animation/agent-docs/manifest.md",
+        "sha256":  "a576836654180a335808690619c806fef8c0b9fea4662d5e9309b4246ada667b"
+    },
+    {
+        "path":  "modules/animation/client/init.lua",
+        "sha256":  "e96c80d8cb28c512e2365b289ec87e05f6fd9b3576d99bb9bbaeb4d7e6dbf4f9"
+    },
+    {
+        "path":  "modules/animation/server/init.lua",
+        "sha256":  "8a3e229cc621baa9635266140ec8a716f9be36a9ae37930dc96dce6d66930c2c"
+    },
+    {
+        "path":  "modules/animation/sprite/agent-docs/manifest.md",
+        "sha256":  "1cd29f39b4472a192173667225390e0fbe14075ec1fb820f2d729f8f5e54faee"
+    },
+    {
+        "path":  "modules/animation/sprite/client/init.lua",
+        "sha256":  "170c47b78cb930012a1d2efedfc654f4a116fe3c374d55a4a39ab224d169f547"
+    },
+    {
+        "path":  "modules/animation/sprite/server/init.lua",
+        "sha256":  "78fb9fef6102799f9de8028fdc2bea2cf38c6d98c9b1067013d90b201b7e087d"
+    },
+    {
+        "path":  "modules/animation/sprite/shared/init.lua",
+        "sha256":  "4e53f56276ec9ee1c37ec96acd4881a7ec667e07c8cd0ac305380a2546179a08"
+    },
+    {
+        "path":  "modules/animation/tests/test.lua",
+        "sha256":  "f482bb791953d6f1535ec945475a39a58e8fc8b53dba044d94bda113d7fe4e35"
+    },
+    {
+        "path":  "modules/audio_test/agent-docs/manifest.md",
+        "sha256":  "3617f52271222d0d0435f26fef8df37b466d60a756d9b2fe17818531a5dd7db7"
+    },
+    {
+        "path":  "modules/audio_test/client/init.lua",
+        "sha256":  "c585f5bbbf0950d79956af3f23f5f2ad89d47accea3374ab85cb9b731dd1651c"
+    },
+    {
+        "path":  "modules/audio_test/server/init.lua",
+        "sha256":  "6740c018c742550c2e8baea9fb9346a9fcf029d9d0dfcb552f13bf7c916351b3"
+    },
+    {
+        "path":  "modules/audio_test/tests/audio/music_ambient.wav",
+        "sha256":  "6881411c6fffa6f0568198124770302cea11cefae1a06192fa6b482ddd0a3d1b"
+    },
+    {
+        "path":  "modules/audio_test/tests/audio/sfx_click.wav",
+        "sha256":  "609d5efd2cb86d52926d5b2c3f5f728ca672064846531fd7ab521852cd771ffd"
+    },
+    {
+        "path":  "modules/audio_test/tests/audio/sfx_footstep.wav",
+        "sha256":  "90c3ba48c9b0c62cca2391b364413919b5271d09f6fe2880df4da2103f427859"
+    },
+    {
+        "path":  "modules/audio_test/tests/audio/sfx_pickup.wav",
+        "sha256":  "3844670c8d12746dba1174d865313a7f5883a434d13a8de3738dea9544290fc1"
+    },
+    {
+        "path":  "modules/audio_test/tests/audio/spatial_drip.wav",
+        "sha256":  "0f11a739d1028ac7c10bf7d6b3aa29c468e8036d8e19cb4eb7660ccef85c9226"
+    },
+    {
+        "path":  "modules/audio_test/tests/audio/spatial_hum.wav",
+        "sha256":  "9368322ab0f95660ddef8077806be6b941a0279f7cf4952e00c33706e5f49e1f"
+    },
+    {
+        "path":  "modules/audio_test/tests/test.lua",
+        "sha256":  "0c204d6b2c0905932fb1fb3f295dd38be349efef90a93e756e35b2df20b9cef4"
+    },
+    {
+        "path":  "modules/camera/2d/agent-docs/manifest.md",
+        "sha256":  "7f73dcd3ff8028e6b6305c208de130fcd40d0fba5cc14c9aa4cdfedce045cdc8"
+    },
+    {
+        "path":  "modules/camera/2d/client/init.lua",
+        "sha256":  "435645609907307d4c5f1e105f227f8f1478aa926689b9eb29aa0a150c60751c"
+    },
+    {
+        "path":  "modules/camera/2d/server/init.lua",
+        "sha256":  "5105b2f5340a4ab1393e20e5b456a904be630ca9b5de20fc3ba73cfc3f806b42"
+    },
+    {
+        "path":  "modules/camera/2d/shared/bindings.lua",
+        "sha256":  "8625953358019a8f90f6ac2d3c86784a4e64e17ce819b8e4b3be9c63e122a84c"
+    },
+    {
+        "path":  "modules/camera/2d/tests/test.lua",
+        "sha256":  "c0d608b13bcdf75feee84953d602d01bf8da122a8ded86cea5ee3151f94b175b"
+    },
+    {
+        "path":  "modules/camera/agent-docs/manifest.md",
+        "sha256":  "8e00f22440acba63ece9b6d4d077060d4dcceeb859c2448815078fc3b8de9d30"
+    },
+    {
+        "path":  "modules/camera/client/init.lua",
+        "sha256":  "d62640f5d4ac0f46b78951a50baa016738e8535f4e0e5c94324338dfb93aa152"
+    },
+    {
+        "path":  "modules/camera/first_person/client/init.lua",
+        "sha256":  "343e00dda0ade9f8d433a741f492ab16c50eb8d2827900d77dc749521d0c0cdf"
+    },
+    {
+        "path":  "modules/camera/first_person/server/init.lua",
+        "sha256":  "1f7214f7b972f106b2c24b0eabe6889bbcc2e4abebdf87a441d23a1a84e8a2e3"
+    },
+    {
+        "path":  "modules/camera/first_person/shared/bindings.lua",
+        "sha256":  "f4fe84acac1190bf9ebed78fd0ebbaede83fe706ebf854d1ffda4cfb4e014103"
+    },
+    {
+        "path":  "modules/camera/server/init.lua",
+        "sha256":  "4a82e8be89482ab514a57a4b6dfda316c1fa531fd9583e72a97b20dea70c64fc"
+    },
+    {
+        "path":  "modules/camera/tests/test.lua",
+        "sha256":  "c1d57c9bb148c00fe254c5fdde4b54ad183bd657cb7a830207617dce916e46cb"
+    },
+    {
+        "path":  "modules/camera/third_person/agent-docs/manifest.md",
+        "sha256":  "3df33b1318c72edbdf582e26f8534154454c45561b5664c9ff0c228bf85e179d"
+    },
+    {
+        "path":  "modules/camera/third_person/client/init.lua",
+        "sha256":  "a55ce39551728de0fbee0bdbea859bcc376e1c8724ee7677970a9e02a8162f03"
+    },
+    {
+        "path":  "modules/camera/third_person/server/init.lua",
+        "sha256":  "71e3b5cf4449db8e873797d3c086db4189dc7b975078d869598efd0df3928b32"
+    },
+    {
+        "path":  "modules/camera/third_person/shared/bindings.lua",
+        "sha256":  "0ecf0209e8e19df95d7d64e1280a1a629c43af404408faca872e821fe561a7fd"
+    },
+    {
+        "path":  "modules/camera/third_person/tests/test.lua",
+        "sha256":  "906f3cbd6a644c3864d98a536b1c7a046cad663f9ccf36cd9e11398f0b2782c0"
+    },
+    {
+        "path":  "modules/camera/vr/client/init.lua",
+        "sha256":  "dee6e48b90aa8f4c27656c820f1ba5cf03b154ee2ee98136560cf5e699cae463"
+    },
+    {
+        "path":  "modules/collision_trigger/agent-docs/manifest.md",
+        "sha256":  "90142a85c514eddd164efce27c420829b5a479390b0c2f7d8e90b83a2cffabc0"
+    },
+    {
+        "path":  "modules/collision_trigger/client/init.lua",
+        "sha256":  "2859793fcf6deb4f4a8184dcc675c4698face2edb1ca03ddd7a0b13fc6dc8d29"
+    },
+    {
+        "path":  "modules/collision_trigger/server/init.lua",
+        "sha256":  "2859793fcf6deb4f4a8184dcc675c4698face2edb1ca03ddd7a0b13fc6dc8d29"
+    },
+    {
+        "path":  "modules/collision_trigger/shared/init.lua",
+        "sha256":  "d10c78eedf7118aedaf6a935534374b657668fb883f7c10c0d8e9faea9455fb0"
+    },
+    {
+        "path":  "modules/dkjson.lua",
+        "sha256":  "0e1cbb5685f408eeffdc96902750f7da5f922bb3f18c6c9201e9b6907ffa6591"
+    },
+    {
+        "path":  "modules/git/agent-docs/manifest.md",
+        "sha256":  "3bf7f4d5b10585e90cdc264a92d73acfdff93f78168348b5f292f74470fa62a4"
+    },
+    {
+        "path":  "modules/git/scope/agent-docs/manifest.md",
+        "sha256":  "19fd2ee4baa8f5224ce9b967e1a3bd73c3d23add40758ce58a9ddc9b33dc0866"
+    },
+    {
+        "path":  "modules/git/scope/net_filter/agent-docs/manifest.md",
+        "sha256":  "eae21b770b3c5f8804f5386fa8eba979e90c202043050002bc8858c88dde2a80"
+    },
+    {
+        "path":  "modules/git/scope/net_filter/init.lua",
+        "sha256":  "c0b77b7c7afe6aed9d042552df0780e48f09937ad45773c8da9c22fc660ef8b7"
+    },
+    {
+        "path":  "modules/git/scope/portal/agent-docs/manifest.md",
+        "sha256":  "856488617fa1487accdfbf0c12ce6ec1136cc20d98d7426dc432ebe22e6e7250"
+    },
+    {
+        "path":  "modules/git/scope/portal/client/init.lua",
+        "sha256":  "5daf518710bbbff22e7b6dee5699d1fe19207d6b59113fa01ca6b11fba3f7455"
+    },
+    {
+        "path":  "modules/git/scope/portal/server/init.lua",
+        "sha256":  "528d33e7f58642cfa54cfca83cfce76f43c671f79894613b3a58ff7904fecbe7"
+    },
+    {
+        "path":  "modules/git/scope/portal/shared/init.lua",
+        "sha256":  "bcc3ffbcb413a39b39f298ae3dfc40d48a4659b6232bee22ada49aa596e0aa1b"
+    },
+    {
+        "path":  "modules/git/scope/selector/agent-docs/manifest.md",
+        "sha256":  "10207effdf7c5f51aa269911ed8d11f7e4dc8783a969cd4f24161af3595ae598"
+    },
+    {
+        "path":  "modules/git/scope/selector/client/init.lua",
+        "sha256":  "f88d7edad25d68ef49a1bf8d2364d10dcad9be0a92098ad826f1eb1e5542bda0"
+    },
+    {
+        "path":  "modules/git/scope/selector/server/init.lua",
+        "sha256":  "3aac9b06045f7b5c3c405aef52143d48072f7b056f95c0d1bf27a0ad8c23a30e"
+    },
+    {
+        "path":  "modules/git/scope/server/init.lua",
+        "sha256":  "1f6f5097c122b2eea646ec5645331ed07d425f72c92c0c9d9e99b2176b61a4d2"
+    },
+    {
+        "path":  "modules/git/scope/shared/config.lua",
+        "sha256":  "070dc980ab0f09fbaf91a5fd572ef609cc379409a7dafee7e671fe6cecff0618"
+    },
+    {
+        "path":  "modules/git/scope/shared/worktree.lua",
+        "sha256":  "b1aa1eb29bb8e723dad009fae102ceaebe1ae7f2c415c355ce732fe8c5f9c64c"
+    },
+    {
+        "path":  "modules/git/scope/workflow/agent-docs/manifest.md",
+        "sha256":  "0865c8b267fe08af0e7e031898635241633450c2c56b88c8d671979903c2aeef"
+    },
+    {
+        "path":  "modules/git/scope/workflow/init.lua",
+        "sha256":  "ca9a03df08eba517f8eccee779142250e2c4acabfdfe7eb27c34f7746c123306"
+    },
+    {
+        "path":  "modules/git/shared/api.lua",
+        "sha256":  "0f71364dbfdf38e377940f9366175b7b0315d9c441b91682b3fc7215e1580aeb"
+    },
+    {
+        "path":  "modules/git/shared/auth.lua",
+        "sha256":  "ca75db05c59db77679d14e4392f2f1ba41c27c01810881c6fd96ba40f7cb5de8"
+    },
+    {
+        "path":  "modules/git/shared/git.lua",
+        "sha256":  "0578cab4dcca88d0aad61c959e015281b9a3342b067ab74e39ee4913d5e358df"
+    },
+    {
+        "path":  "modules/gltf_colliders/agent-docs/manifest.md",
+        "sha256":  "a1bf1861f1d8c6149318f419b94b4b7301df1141b3c30cfe5c3a1df73e5b1542"
+    },
+    {
+        "path":  "modules/gltf_colliders/init.lua",
+        "sha256":  "f02c7b20539f9befa78f5be4a0e69e69cc0dedd05932312747841dacb61b4d1b"
+    },
+    {
+        "path":  "modules/gltf_colliders/tests/test.lua",
+        "sha256":  "e4dfa886faf5b3fcda7cc6cbeeff9ba0a077b922e105b75f1813853ceca86f1e"
+    },
+    {
+        "path":  "modules/input/agent-docs/manifest.md",
+        "sha256":  "57e54ba3df2b7649196b060a67fe8cc98beed4044f0cdd6a2039fd59f16f28e1"
+    },
+    {
+        "path":  "modules/input/client/init.lua",
+        "sha256":  "9be8b73a7d379da5f51f1ddf39d4cbf0d0629fc0aad42b8c8c4478a9ab52386f"
+    },
+    {
+        "path":  "modules/input/server/init.lua",
+        "sha256":  "af1debcc08e48693aae7d9b269b5e9980aede5d3aa24ade3c6c38573518ba9cf"
+    },
+    {
+        "path":  "modules/input/tests/test.lua",
+        "sha256":  "31ac043b05709d4f50277c8ff6f052c2573a6ac8dfdcb6139c534867c016e399"
+    },
+    {
+        "path":  "modules/map/default/agent-docs/manifest.md",
+        "sha256":  "ec50a8d204d133c804624dc38c237c2d32bfaf1d45980afc3a85e204284873db"
+    },
+    {
+        "path":  "modules/map/default/client/init.lua",
+        "sha256":  "f49b85c0581d2a994590c08a7c02ea891a3c7f22b49e0edd40ebd1093e4f42b6"
+    },
+    {
+        "path":  "modules/map/default/server/init.lua",
+        "sha256":  "d3106d807a6a3aafd551eccf3619c3d07fbd2cf8c15198064b85303f80642388"
+    },
+    {
+        "path":  "modules/map/default/shared/init.lua",
+        "sha256":  "4b0efa9f1440123e4193971106e45054f44999a76d10c53e619f0f9c9efc2d20"
+    },
+    {
+        "path":  "modules/map/default/tests/test.lua",
+        "sha256":  "1d3b8b6f8362973d1e9760e685c10b9d31d192b08a66861dd1588304687b7de4"
+    },
+    {
+        "path":  "modules/map/lobby/agent-docs/manifest.md",
+        "sha256":  "54e0a87957138d9969c2e4643e4600e4990db8838fc2392e00b1c1216d28b51c"
+    },
+    {
+        "path":  "modules/map/lobby/assets/lobby.glb",
+        "sha256":  "d3c7090ec614f838ba49dadca25e4466ec24ebbadafc000164d272119ff4512e"
+    },
+    {
+        "path":  "modules/map/lobby/client/init.lua",
+        "sha256":  "ca189277cfd543dadc57ddfb9eac168573dd733f0ba6e0ab46d8ff9b5863030f"
+    },
+    {
+        "path":  "modules/map/lobby/server/init.lua",
+        "sha256":  "3178ebec5903bba9db70c99c0dada7d7dcdbbc39e032ae5abf0e2691553cea19"
+    },
+    {
+        "path":  "modules/map/lobby/shared/init.lua",
+        "sha256":  "9e40a42f5c1799d89ddc29ef13b16f45488978e6a4f8e5a31a5a00070a2c0de1"
+    },
+    {
+        "path":  "modules/map/lobby/tests/test.lua",
+        "sha256":  "8fb46859924a0461cc2536305962efa65e9bab359bf1a8bf50e41a6cb3ab51ca"
+    },
+    {
+        "path":  "modules/map/tiled/agent-docs/manifest.md",
+        "sha256":  "9b3e783ae59e507f6ea3eafb963e90a41a51987993ce6b4aa71cc158cdb047d4"
+    },
+    {
+        "path":  "modules/map/tiled/client/init.lua",
+        "sha256":  "f03380d34076e443a64d336dad2f8ac69505e6cf8a17707a619d022bf5a2a6f6"
+    },
+    {
+        "path":  "modules/map/tiled/server/init.lua",
+        "sha256":  "6198d1ea644af3ccd7eee3323d515a16ff977bde3652ba55d24c434231981a97"
+    },
+    {
+        "path":  "modules/map/tiled/shared/init.lua",
+        "sha256":  "44f77dcd1b73c60a11eea345a891958f0c8db6eb0ae6468146f7b325f9c67209"
+    },
+    {
+        "path":  "modules/map/tiled/tests/test.lua",
+        "sha256":  "2ab895eed1f8dc6b848af5e832f52dc4dd4f4b9c272f262e182614e4fc9ed6a7"
+    },
+    {
+        "path":  "modules/mod/agent-docs/manifest.md",
+        "sha256":  "187fd30fd3525452dd181432243581296c0f70ef48508eaefe9e9e24f2c0a73c"
+    },
+    {
+        "path":  "modules/mod/agent-docs/skills/mod-api.md",
+        "sha256":  "4a25bef6bda82b2ad227e90baaa1e519eb24eb05717300da8c84c570eb7b652c"
+    },
+    {
+        "path":  "modules/mod/init.lua",
+        "sha256":  "dc0a793e1f42fd77d9cb04f1cb18a8445d4ed92b78a0352392bdcc4179d82ac7"
+    },
+    {
+        "path":  "modules/mod/tests/test.lua",
+        "sha256":  "9a0c36be56ff159c76de89513890b5e292712e1394faedf7cddad0042839fca3"
+    },
+    {
+        "path":  "modules/movement/2d/agent-docs/manifest.md",
+        "sha256":  "545a78169d7f18a863d884c12b643a19a0d8da30e7c2126ee643c305e33e5f59"
+    },
+    {
+        "path":  "modules/movement/2d/client/init.lua",
+        "sha256":  "3e6043ae22580ab314fcef8bb143a6c0ce5c42076b618957a67d95d1707f744c"
+    },
+    {
+        "path":  "modules/movement/2d/server/init.lua",
+        "sha256":  "a93c3d7183eb578689e28fa1b825477ffc33554e1433373b5018a796d247067e"
+    },
+    {
+        "path":  "modules/movement/agent-docs/manifest.md",
+        "sha256":  "689fb1515deb81bc447912896bd057bbd7b8f87913d61f7dffc97341b1d42805"
+    },
+    {
+        "path":  "modules/movement/client/init.lua",
+        "sha256":  "72edffcc5547a727f9766c11285a8e4a8d23ce246d8eda6c16432586b77fd950"
+    },
+    {
+        "path":  "modules/movement/server/init.lua",
+        "sha256":  "439ba7ed8a0ecc426db10c9415c173106aca948eec4230a0c8cfe66d33e4447f"
+    },
+    {
+        "path":  "modules/movement/shared/bindings.lua",
+        "sha256":  "27f2ffd98f02ba3eb372f93cfa8b5e480343b47565bd5f656fa1819ccf503a5c"
+    },
+    {
+        "path":  "modules/movement/shared/movement.lua",
+        "sha256":  "4306611b89e966ec9f324152f911ca7ca8c36b3ff2e91dd65648bb79338741ab"
+    },
+    {
+        "path":  "modules/movement/tests/test.lua",
+        "sha256":  "3f6b14275720a4011c0d562a4121b6dff6af786f3572984becc254d5eac4b10e"
+    },
+    {
+        "path":  "modules/net/agent-docs/manifest.md",
+        "sha256":  "4ccbb93fdbd4eba26ec12e73871db00f6192d290b68fba92f7b3cdfa863659e7"
+    },
+    {
+        "path":  "modules/net/agent-docs/skills/net-api.md",
+        "sha256":  "32e712710a3f4146891f41c572e847386377f56446bf6952b02e9b08cde719c8"
+    },
+    {
+        "path":  "modules/net/client/init.lua",
+        "sha256":  "532f41f440b2e780dd590054569f0a3b11d9455204200cae01189cd7386e71f8"
+    },
+    {
+        "path":  "modules/net/client/predict.lua",
+        "sha256":  "66acfc5ea615e1fa929bea680ecf899907fc1d98331e0df119145ecdb60945a8"
+    },
+    {
+        "path":  "modules/net/peer/init.lua",
+        "sha256":  "f210a991f917c6f75bcb5c2f291beed871db696145a70111232c098f2d365bed"
+    },
+    {
+        "path":  "modules/net/peer/shared.lua",
+        "sha256":  "8ff3478dcd49a316e837eab196dbc06af434c7fe6f18d0886e1d23460fa9a84c"
+    },
+    {
+        "path":  "modules/net/server/init.lua",
+        "sha256":  "2de1090029b46720ae984d20565cba09fa2208f28df29e9cc47ea268080113dc"
+    },
+    {
+        "path":  "modules/net/shared/net.lua",
+        "sha256":  "01616cd337078c4f77e61d3f7f6710e9d18dfafb36309e9b4f426ff4cac36b7e"
+    },
+    {
+        "path":  "modules/net/shared/tracking.lua",
+        "sha256":  "c289a93a5cffe0cf63b274aba17c5002c4398a4671f707fcf23f42d7f7ad7f05"
+    },
+    {
+        "path":  "modules/net/tests/test_authority.lua",
+        "sha256":  "7c0eb002bf3262fda1b991550b3519f1f8506f4f34a937e26e2d59d1637d7db3"
+    },
+    {
+        "path":  "modules/net/tests/test_both.lua",
+        "sha256":  "811012d816a7caf191d950c1bd3db4ae4056ec45f5f7e002deef32afc2e8ea0c"
+    },
+    {
+        "path":  "modules/net/tests/test_prediction.lua",
+        "sha256":  "bf50922f1752657449f991506d4f44e082d303a69b2fb03ee313d849eed8396c"
+    },
+    {
+        "path":  "modules/net/tests/test_target_filtering.lua",
+        "sha256":  "5bee53cd966a7ebf32a899af15fbb9de0fc6738542dbade91dc90699f46100fc"
+    },
+    {
+        "path":  "modules/net/transfer/agent-docs/manifest.md",
+        "sha256":  "9b32a9cf42e6571b0b8b6e9fcb4a90361fc67dcb80b49c7960ef01d78334b75b"
+    },
+    {
+        "path":  "modules/net/transfer/init.lua",
+        "sha256":  "89eb98d802c111c73e27f6710b4e8093e616268f9fe684c8f8255c49370781ac"
+    },
+    {
+        "path":  "modules/net/transfer/relay.lua",
+        "sha256":  "9b95cd5ae36f5eebae1dd7cecf606e9472c48dcbaf7f44db24f795fade33aa66"
+    },
+    {
+        "path":  "modules/net_mod/agent-docs/manifest.md",
+        "sha256":  "976d1fbcdc3b09758b2bf35eded582c5ed06712bfc1a546632299c58eaac0943"
+    },
+    {
+        "path":  "modules/net_mod/helpers.lua",
+        "sha256":  "6d61261953ecdead82d88070d2aed9a0952f415ad6e1fb50d6313f8d1bac79e6"
+    },
+    {
+        "path":  "modules/net_mod/init.lua",
+        "sha256":  "6d47e90348a075ea3294c26555cb9ae80740d6e5c6b12e7ae2403590b44bcef2"
+    },
+    {
+        "path":  "modules/net_mod/instance.lua",
+        "sha256":  "d572d591c517f6e5adf5315fd35e4196f1cf15fdc7ae1876be7c49adb0ab2816"
+    },
+    {
+        "path":  "modules/net_mod/tests/test.lua",
+        "sha256":  "a3966c0b3800590e20362a44c5f0642ab97c997f71f58d3209274a5a113aacb1"
+    },
+    {
+        "path":  "modules/net_mod/tests/test_base_mod/server/init.lua",
+        "sha256":  "50b9e6364b260fd637f1604ded02292a430eae3b0f61f22b5fede1a6ea2ec4f1"
+    },
+    {
+        "path":  "modules/net_mod/tests/test_base_sync_inheritance.lua",
+        "sha256":  "77c641dc60a30b8ff233d25a17339e859fde822694955f435c8156d34405f334"
+    },
+    {
+        "path":  "modules/net_mod/tests/test_client_filtering.lua",
+        "sha256":  "1c4451f708f1f81859c516a7edd8c829e575189086e22e6c83f161812fc557ab"
+    },
+    {
+        "path":  "modules/net_mod/tests/test_spawn_serialization.lua",
+        "sha256":  "ad136c5d0e398e997089dad34b38ee3156c0410d20b80d9eefeb189e2599a709"
+    },
+    {
+        "path":  "modules/net_mod/tests/test_sub_mod/server/init.lua",
+        "sha256":  "e9d71659031090478ca8ff711a19aff7a3d6739c9a7947dc4c3306ae1b4e560c"
+    },
+    {
+        "path":  "modules/placement/agent-docs/manifest.md",
+        "sha256":  "11088a25f2b2e6a5207ed28b8f1573ab857e8a5fb4c8a5d4e5db32d85d2b4790"
+    },
+    {
+        "path":  "modules/placement/client/init.lua",
+        "sha256":  "0e0050e1fe9dd7be251b75307b2416c7e354874f651119ae60b9ad16de7fa6a2"
+    },
+    {
+        "path":  "modules/placement/server/init.lua",
+        "sha256":  "19ca3a632668764d0991193671c070aa47dd60de6883e56b8eef246d5170436e"
+    },
+    {
+        "path":  "modules/placement/shared/bindings.lua",
+        "sha256":  "9056ed50b0d67265bea01a7fc66987e95a40f439888e48ad39e31da41afb8a5b"
+    },
+    {
+        "path":  "modules/placement/shared/init.lua",
+        "sha256":  "416d47119b73bc901009140e4ad5a5a9bccb528ada3df59da25a3ac6ae76fb64"
+    },
+    {
+        "path":  "modules/player/2d/spawner/agent-docs/manifest.md",
+        "sha256":  "d878c9856f8a46a35b9b79b1a659774abab0419ae5e5c6d7b0e51a0c92fc5529"
+    },
+    {
+        "path":  "modules/player/2d/spawner/init.lua",
+        "sha256":  "a539536023cee034bd547a889dbbbcd3ff3219a5dbae34b35903b902fcc3be99"
+    },
+    {
+        "path":  "modules/player/agent-docs/manifest.md",
+        "sha256":  "97d7ff52212629cf4f9be08fadc81f0785ce30b4b3e1402200d5db0c5bd8923b"
+    },
+    {
+        "path":  "modules/player/client/init.lua",
+        "sha256":  "42ca993fa3d7579b9321060b04d0080d298949ebb73da8341da713d625522c04"
+    },
+    {
+        "path":  "modules/player/server/init.lua",
+        "sha256":  "f6bbd2b31f15450ab47caed41be7866aaf12a0488e65b054ad1c78e68b1dfabc"
+    },
+    {
+        "path":  "modules/player/spawner/init.lua",
+        "sha256":  "67030b5f287ae5cdb835f82230460770860cc1b5273fa1bb0d7cb21c27ce4237"
+    },
+    {
+        "path":  "modules/player/tests/test.lua",
+        "sha256":  "b91bff853cc5a2192c95d2d3597d903a2acb01e22db0a67a3579cb0b2fc2ea38"
+    },
+    {
+        "path":  "modules/scope/render/init.lua",
+        "sha256":  "3e0826aeae6bcc533154de22caa9f3e306e32c62bb17476b96d1c573d90e3925"
+    },
+    {
+        "path":  "modules/sidebar/agent-docs/manifest.md",
+        "sha256":  "4724f1ac211b0463614043a71bdd8fd7e782eb54a76a53dee770b5effd338589"
+    },
+    {
+        "path":  "modules/sidebar/button/agent-docs/manifest.md",
+        "sha256":  "7df488ae9915c6286fddc1ce22430582d8c6fd4fa34a393b9f4155a5a8bd41d4"
+    },
+    {
+        "path":  "modules/sidebar/button/init.lua",
+        "sha256":  "8e802f57ddbbe94fc5e470f951b14ced3956c085ef67a865224fc0abc425a2cb"
+    },
+    {
+        "path":  "modules/sidebar/client/init.lua",
+        "sha256":  "2ae8ed1aa1b86e2e44f32546fd1388e714b59b4a17f5cc151c6482918efa1960"
+    },
+    {
+        "path":  "modules/sidebar/file_browser/panel/agent-docs/manifest.md",
+        "sha256":  "27b3b2346c2f684f29fe4db6e5e18db226edf791b4a655fb80276812fc5988c9"
+    },
+    {
+        "path":  "modules/sidebar/file_browser/panel/init.lua",
+        "sha256":  "253f8404fccff10dd472e30e3a52fefda4df6bdcd557b11a6985245a1b4423f0"
+    },
+    {
+        "path":  "modules/sidebar/loading/init.lua",
+        "sha256":  "cfd05e4bc8964a2fb6791acb1170c9541dd610da334677844a4bd9cb792872c6"
+    },
+    {
+        "path":  "modules/sidebar/profiler/panel/agent-docs/manifest.md",
+        "sha256":  "5b7574cc34b5dbb0bff0bdad88b2e1ed258dc270475a6cab921ecbdb87797caf"
+    },
+    {
+        "path":  "modules/sidebar/profiler/panel/init.lua",
+        "sha256":  "6cc0b35f0ddec6657ea5893579be029c15fcb6c0fd4a73075fadc724959135df"
+    },
+    {
+        "path":  "modules/sidebar/server/init.lua",
+        "sha256":  "7579b06109163c4b3f5f3f9330c8b682ca22325c435ddfc3470e7d7daece102d"
+    },
+    {
+        "path":  "modules/sidebar/shared/bindings.lua",
+        "sha256":  "9f43e3e1156d0737a01d545d1a8722f996749b0e6c64805fce6c8c855903fb34"
+    },
+    {
+        "path":  "modules/sidebar/shared/colors.lua",
+        "sha256":  "e22f9980fb9c72f277d71de6d0013814e48ca67ab635f85ccdb075d9d68f7c3a"
+    },
+    {
+        "path":  "modules/ui_panel/agent-docs/manifest.md",
+        "sha256":  "6df66860d950054ebc0e3897a00b3940fc894fb9a345355684479b3d0021c780"
+    },
+    {
+        "path":  "modules/ui_panel/init.lua",
+        "sha256":  "ea8e3b0cf97e17e69df2cd8d9bc4e681bbaf5cb8bb443e2446170bb568ce447e"
+    },
+    {
+        "path":  "modules/vr/client/init.lua",
+        "sha256":  "126102f3f89d63bae5c6b822193a1ed7f15bf4464f193aa88bf07a15ed9cfce5"
+    },
+    {
+        "path":  "modules/vr/grabbable/client/init.lua",
+        "sha256":  "d83348e87416e1b3ae94d600abd470ed7ca23a5dffc64f033d8289f519392eaf"
+    },
+    {
+        "path":  "modules/vr/grabbable/shared/bindings.lua",
+        "sha256":  "6ab40e3380b23ef8d43c25dba95cb57e7d3cfd5badb4775723719b386aa661a9"
+    },
+    {
+        "path":  "modules/vr/pointer/client/init.lua",
+        "sha256":  "8823b4da0fd79138baa65b74b6c6ee953b34105b4e1ea151c66561e590e20b0e"
+    },
+    {
+        "path":  "modules/vr/server/init.lua",
+        "sha256":  "c530aca49e2c3dafe3036bbc802767d6d1f26a67e4cf55050d909ce159bb4691"
+    },
+    {
+        "path":  "modules/vr/ui_panels/client/init.lua",
+        "sha256":  "38ada77bf003fb3243daf95a62e1be36ad3b1fd1ac142a9b22a7a4e7b3adfaa4"
+    },
+    {
+        "path":  "Placeholder-Character/Model.glb",
+        "sha256":  "c4cc999905ea1617137a513e5e0abeafe8a88fd08c5adf508df82eaa6dbbed0a"
+    },
+    {
+        "path":  "Placeholder-Character/Model-Idle.glb",
+        "sha256":  "954e38745c9517dcd7df4432e8a34f6b810f2130ed435127cd479d9b72f8bbd5"
+    },
+    {
+        "path":  "Placeholder-Character/Model-Jump.glb",
+        "sha256":  "f6726cc4e48a63aa5cadd8b181f31956d5a966ad33026b823b33f42c6c2dae34"
+    },
+    {
+        "path":  "Placeholder-Character/Model-Walk.glb",
+        "sha256":  "5e304a149d136196790c39039a93d18bef11bd50a95698c4c761ea9ce1deacea"
+    },
+    {
+        "path":  "shaders/depth_clear_stencil.wgsl",
+        "sha256":  "63190684206fb7afa5e98f12a5f90a0ed062a84d65dc81cf84ce44d456dbdd08"
+    },
+    {
+        "path":  "shaders/dynamic_material_dispatch.wgsl",
+        "sha256":  "6d65f8a4a5f13892d879d9b9178a77b7352ef6f373e41633c941cc0c8684eb77"
+    },
+    {
+        "path":  "shaders/materials/dissolve.wgsl",
+        "sha256":  "50c575f06a953083d8344986a543fa50299d3e209058fed4839e82c2319109c4"
+    },
+    {
+        "path":  "shaders/materials/energy.wgsl",
+        "sha256":  "90962568096cbc97dbc27680d25a036736de54d3c81e8469ff6905f7b2b6ea9e"
+    },
+    {
+        "path":  "shaders/materials/water.wgsl",
+        "sha256":  "294907c7282717afcc348d807ac2ef6f62e7339cb7b0f4f3708e4b9e6d153fb4"
+    },
+    {
+        "path":  "shaders/stencil_test.wgsl",
+        "sha256":  "5a5a280997b6fa27c063768b0ffcad0c9eb6c58a25b1cd0535769f17ca880a0b"
+    },
+    {
+        "path":  "shaders/stencil_write.wgsl",
+        "sha256":  "d8035437792f740a6eb0745d2ebb3fb8b96b2636b83ce411d6357e1083da5764"
+    },
+    {
+        "path":  "textures/water_normal.png",
+        "sha256":  "382b73ff96fdb905d07ce70e2f1c04b2c05b74add0e481b6dc0f7bfb7a11b018"
+    },
+    {
+        "path":  "textures/water_sparkle.png",
+        "sha256":  "e36b3eb679607108a346941665c128985bd8a39c72b0c281d7953e03d86ee130"
+    }
+]
+}

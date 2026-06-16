@@ -1,0 +1,4 @@
+-- modules/vr/server/init.lua
+-- Server-side VR mod stub.
+-- No server-side logic needed — VR detection and sub-mod loading
+-- are entirely client-side concerns.

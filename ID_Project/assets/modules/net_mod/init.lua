@@ -1,0 +1,11 @@
+-- modules/net_mod/init.lua
+-- Net Mod Orchestrator: translates `net_mod` → `mod` + `net_sync`.
+--
+-- This module is a convenience entry point.  The actual systems live in
+-- instance.lua, which should be required from within an instanced game
+-- script so that all systems share the same state_id as net transport.
+--
+-- Example usage (from a game bootstrap script):
+--   require("modules/mod/init.lua")
+--   require("modules/net/server/init.lua")    -- sets NetInfo.side
+--   require("modules/net_mod/instance.lua")   -- registers NetModLoader
