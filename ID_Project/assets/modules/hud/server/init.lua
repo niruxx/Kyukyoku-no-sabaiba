@@ -1,0 +1,2 @@
+-- modules/hud/server/init.lua
+-- HUD is a client-only overlay — nothing to do on the server.

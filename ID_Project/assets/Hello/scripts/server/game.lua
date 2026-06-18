@@ -40,4 +40,21 @@ function game.init2d(net_entity)
     }):with_parent(net_entity:id())
 end
 
+function game.init_zombie(net_entity)
+    -- Tiled map (shared — both sides spawn identical geometry)
+    spawn({
+        net_mod = { ["map/tiled"] = { tmx_path = "map.tmx" } },
+    }):with_parent(net_entity:id())
+
+    -- Zombie-game player spawner (weapons instead of abilities, adds player_health)
+    spawn({
+        mod = { ["player/2d/zombie_spawner"] = {} },
+    }):with_parent(net_entity:id())
+
+    -- Horde spawner: sends waves every ~15-25 s, growing in size each wave
+    spawn({
+        mod = { ["zombie_spawner"] = {} },
+    }):with_parent(net_entity:id())
+end
+
 return game

@@ -114,7 +114,7 @@ register_system("PreUpdate", function(world)
                 },
             }):with_parent(net_entity:id())
 
-            game.init2d(net_entity)
+            game.init_zombie(net_entity)
         end, { instanced = true, reload = false, asset_root = asset_root })
 
         ::continue::

@@ -50,6 +50,16 @@ register_system("PreUpdate", function(world)
     end
 end)
 
+-- Center the window on the primary monitor at startup
+register_system("First", function(world)
+    for _, win in ipairs(world:query({ with = { "Window" } })) do
+        pcall(function()
+            win:patch({ Window = { position = { Centered = {} } } })
+        end)
+        break
+    end
+end)
+
 -- Generate a stable player identity for this session.
 -- ALL connections (lobby, portal observers, etc.) use this same identity
 -- so that net_owner.client_id matches across servers.
