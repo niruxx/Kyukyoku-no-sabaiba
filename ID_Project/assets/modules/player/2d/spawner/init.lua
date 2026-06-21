@@ -177,10 +177,9 @@ register_system("PreUpdate", function(world)
             player = { client_id = client_id, spawn_index = spawn_index },
             net_mod = {
                 { player = {} },
-                { title_screen = {} },
                 { input = { input_mode = "game", hide_cursor = false } },
                 { ["camera/2d"] = {}, net_sync = { authority = "client", target = "owner" } },
-                { ["movement/2d"] = { speed = 160.0 } },
+                { ["movement/2d"] = { speed = 110.0 } },
                 { ["animation/sprite"] = {
                     image = "character-spritesheet.png",
                     tile_size = { x = 64, y = 64 },
@@ -199,7 +198,7 @@ register_system("PreUpdate", function(world)
                         walk_up = { frames = { 104, 105, 106, 107, 108, 109, 110, 111, 112 }, fps = 50 },
                     },
                 }},
-                { abilities = {} },
+                { sword = {}, net_sync = { authority = "client", target = "owner" } },
                 { sidebar = {}, net_sync = { authority = "client", target = "owner" } },
             },
         }

@@ -53,6 +53,7 @@ register_system("Update", function(world)
         if not input or not mv then goto continue end
 
         local speed   = mv.speed or Movement.MOVE_SPEED
+        if input.sprint then speed = speed * 1.45 end
         local moving  = has_movement_input(input)
         local desired = moving and Movement.compute_velocity2d(input, speed) or { x = 0, y = 0 }
 
